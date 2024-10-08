@@ -1,0 +1,9 @@
+name: hello-world
+'on': push
+jobs: null
+my-job: null
+run on: ubuntu-letest
+steps:
+  - name: my-step
+run: echo "hello World!"
+
